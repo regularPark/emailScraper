@@ -46,7 +46,7 @@ time.sleep(5)
 
 pyautogui.keyDown('shift')
 pyautogui.press('tab', presses=4) # no login safe-lock
-# pyautogui.press('tab', presses=4) # with login safe-lock
+# pyautogui.press('tab', presses=6) # with login safe-lock
 pyautogui.keyUp('shift')    
 pyautogui.press('enter')    # Enter Gmail
 time.sleep(3)

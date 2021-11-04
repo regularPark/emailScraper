@@ -36,11 +36,11 @@ driver.get(
         '%3Fgws_rd%3Dssl&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
 # Google login page
 
-pyautogui.write('2019113632@dgu.ac.kr')    # Fill in your ID or E-mail
+pyautogui.write('ID')    # Fill in your ID or E-mail
 pyautogui.press('tab', presses=3)   # Press the Tab key 3 times
 pyautogui.press('enter')
 time.sleep(3)   # wait a process
-pyautogui.write('ehdrnr123!')   # Fill in your PW
+pyautogui.write('PW')   # Fill in your PW
 pyautogui.press('enter')
 time.sleep(5)
 
